@@ -1,16 +1,18 @@
 #include<stdio.h>
+#include<ctype.h>
 /**
  * main - print alphabets in lowercase
  * Return: 0 if successful
 */
 int main(void)
 {
-	char ch;
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		char lower = tolower(ch)
+		putchar(lower);
 	}
-		putchar("\n");
+		putchar('\n');
 	return (0);
 }
