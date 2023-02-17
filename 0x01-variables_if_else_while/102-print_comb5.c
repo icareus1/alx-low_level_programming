@@ -14,16 +14,16 @@ int main(void)
 		{
 			if (ch != hc)
 			{
-                		putchar(ch / 10 + '0');
-                		putchar(ch % 10 + '0');
-                		putchar(' ');
-                		putchar(hc / 10 + '0');
-                		putchar(hc % 10 + '0');
-                		if (ch < 98)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				putchar(ch / 10 + '0');
+				putchar(ch % 10 + '0');
+				putchar(' ');
+				putchar(hc / 10 + '0');
+				putchar(hc % 10 + '0');
+				if (ch < 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
