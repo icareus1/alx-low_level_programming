@@ -3,13 +3,14 @@
  * main - print alphabets in lowercase
  * Return: 0 if successful
 */
-char main(void)
+int main(void)
 {
-	char c;
+	int c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(c);
+		char low = tolower(c);
+		putchar(low);
 		putchar("\n");
 	}
 	return (0);
