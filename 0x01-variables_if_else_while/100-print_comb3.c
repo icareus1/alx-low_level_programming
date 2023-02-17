@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 /**
- * main - print nums in lowercase
+ * main - print double digits
  * Return: 0 if successful
 */
 int main(void)
@@ -10,15 +10,15 @@ int main(void)
 
 	for (ch = 0; ch <= 9; ch++)
 	{
-		for (hc = 1; hc <= 9; hc++)
+		for (hc = ch + 1; hc <= 9; hc++)
 		{
-			if (ch != hc)
+			putchar(ch + '0');
+			putchar(hc + '0');
+			if (i < 8)
 			{
-				putchar(ch + '0');
-				putchar(hc + '0');
-			}
 				putchar(',');
 				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
