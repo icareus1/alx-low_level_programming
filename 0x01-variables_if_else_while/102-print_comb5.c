@@ -8,9 +8,9 @@ int main(void)
 {
 	int ch, hc;
 
-	for (ch = 0; ch <= 100; ch++)
+	for (ch = 0; ch <= 99; ch++)
 	{
-		for (hc = ch; hc <= 100; hc++)
+		for (hc = ch; hc <= 99; hc++)
 		{
 			if (ch != hc)
 			{
