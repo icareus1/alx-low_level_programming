@@ -17,24 +17,21 @@ void print_times_table(int n)
 				if (j == 0)
 				{
 					_putchar(x + '0');
-				}
-				else if (x < 10 && j != 0)
+				} else if (x < 10 && j != 0)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(x + '0');
-				}
-				else if (x >= 10 && x < 100)
+				} else if (x >= 10 && x < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar((x / 10) + '0');
 					_putchar((x % 10) + '0');
-				}
-				else if (x >= 100)
+				} else if (x >= 100)
 				{
 					_putchar(',');
 					_putchar(' ');
