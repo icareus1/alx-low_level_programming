@@ -6,15 +6,17 @@
  */
 int main(void)
 {
-	int count, a = 0, b = 1, sum;
+	int i;
+       
+	unsigned long a = 0, b = 1, sum;
 
-	for (count = 0; count < 50; count++)
+	for (i = 0; i < 50; i++)
 	{
 		sum = a + b;
-		printf("%d", sum);
+		printf("%lu", sum);
 		a = b;
 		b = sum;
-		if (count == 49)
+		if (i == 49)
 			printf("\n");
 		else
 			printf(", ");
