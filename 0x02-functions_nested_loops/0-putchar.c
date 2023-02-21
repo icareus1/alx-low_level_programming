@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - use _putchar to print a simple statement
  * Return: 0 if successful
