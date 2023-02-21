@@ -18,5 +18,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", even_sum);
-	return 0;
+	return (0);
 }
