@@ -5,13 +5,9 @@
 */
 int main(void)
 {
-	int a, b, c;
+	int a;
 
 	a = 10;
-	b = 0;
-	c = -10
 	positive_or_negative(a);
-	positive_or_negative(b);
-	positive_or_negative(c);
 	return (0);
 }
