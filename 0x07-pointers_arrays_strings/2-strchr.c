@@ -3,7 +3,7 @@
  * _strchr - trim string starting from a given character
  * @s: string
  * @c: where to start trimming
- * Return: trimmed string
+ * Return: trimmed string and 0 if successful
  */
 char *_strchr(char *s, char c)
 {
@@ -15,4 +15,5 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 		i++;
 	}
+	return (0);
 }
