@@ -3,7 +3,7 @@
  * _strstr - return a substring
  * @haystack: string
  * @needle: substring
- * Return: substring
+ * Return: 0 if successful
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -22,4 +22,5 @@ char *_strstr(char *haystack, char *needle)
 			return (haystack);
 	}
 
+	return (0);
 }
