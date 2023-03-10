@@ -20,7 +20,7 @@ d = 0;
 	while (i < len && f == 0)
 	{
 	if (s[i] == '-')
-			++d;
+		++d;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 		digit = s[i] - '0';
@@ -44,7 +44,7 @@ d = 0;
  * @argc: number of arguments
  * @argv: string of arguments
  * Return: 0 (Success), 1 (Error)
- */		
+ */
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
