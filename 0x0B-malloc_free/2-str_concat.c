@@ -1,4 +1,4 @@
-#include "main.h"	
+#include "main.h"
 #include <stdlib.h>
 /**
  * str_concat - concatenate 2 strings
@@ -27,10 +27,9 @@ char *str_concat(char *s1, char *s2)
 		concat[i] = s1[i];
 	for (j = 0; s2[j] != '\0'; j++)
 	{
-		concat[j] = s2[j];
+		concat[i] = s2[j];
 		i++;
 	}
 	concat[i] = '\0';
 	return (concat);
-		
 }
