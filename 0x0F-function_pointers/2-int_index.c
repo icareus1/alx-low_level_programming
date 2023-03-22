@@ -3,7 +3,7 @@
  * int_index - return index place if comparison is true
  * @array: array
  * @size: size of elements in array
- * @cmp: comparison
+ * @cmp: comparison function pointer
  * Return: -1 If size <= 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
@@ -17,5 +17,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 		if (cmp(array[i]))
 			return (i);
 	}
-	return (-1);
+	return (0);
 }
