@@ -25,6 +25,7 @@ char **parse_line(char *line)
 		return (NULL);
 	}
 	/* Tokenize the line */
+	i = 0;
 	token = strtok(line, " \n");
 	while (token)
 	{

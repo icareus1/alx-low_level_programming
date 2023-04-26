@@ -14,6 +14,8 @@
 
 char **parse_line(char *line);
 int run_command(char **args, char **env);
+int check_executable(char *filename);
+int execute_command(char **args);
 int is_built_in(char *command);
 int sh_cd(char **args);
 int sh_exit(char **args);
